@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Thunder Backend",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"build_backend"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": [
+				"$go"
+			]
+		}
+	]
+}
